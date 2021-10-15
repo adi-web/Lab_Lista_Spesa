@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o"
   "/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o"
+  "/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o"
   "/home/admir/CLionProjects/Lab_Lista_Spesa/main.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

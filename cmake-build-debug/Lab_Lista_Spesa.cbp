@@ -94,6 +94,15 @@
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h">
 			<Option target="Lab_Lista_Spesa"/>
 		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Observer.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/main.cpp">
 			<Option target="Lab_Lista_Spesa"/>
 		</Unit>

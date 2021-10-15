@@ -177,6 +177,30 @@ Categoria.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.s
 .PHONY : Categoria.cpp.s
 
+Spesa.o: Spesa.cpp.o
+.PHONY : Spesa.o
+
+# target to build an object file
+Spesa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o
+.PHONY : Spesa.cpp.o
+
+Spesa.i: Spesa.cpp.i
+.PHONY : Spesa.i
+
+# target to preprocess a source file
+Spesa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.i
+.PHONY : Spesa.cpp.i
+
+Spesa.s: Spesa.cpp.s
+.PHONY : Spesa.s
+
+# target to generate assembly for a file
+Spesa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s
+.PHONY : Spesa.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... Categoria.o"
 	@echo "... Categoria.i"
 	@echo "... Categoria.s"
+	@echo "... Spesa.o"
+	@echo "... Spesa.i"
+	@echo "... Spesa.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
