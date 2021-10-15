@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/RunLab_Lista_spesa.dir/runAllTests.cpp.o CMakeFiles/RunLab_Lista_spesa.dir/UtenteTest.cpp.o CMakeFiles/RunLab_Lista_spesa.dir/SpesaTest.cpp.o CMakeFiles/RunLab_Lista_spesa.dir/ObserverTest.cpp.o -o RunLab_Lista_spesa  lib/googletest/libgtestd.a lib/googletest/libgtest_maind.a ../libcore.a lib/googletest/libgtestd.a -pthread 
