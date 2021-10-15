@@ -1,0 +1,3 @@
+/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/Lab_Lista_Spesa.dir
