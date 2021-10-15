@@ -118,12 +118,54 @@ CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp -o CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s
 
+CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o: CMakeFiles/Lab_Lista_Spesa.dir/flags.make
+CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o: ../Utente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o -c /home/admir/CLionProjects/Lab_Lista_Spesa/Utente.cpp
+
+CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admir/CLionProjects/Lab_Lista_Spesa/Utente.cpp > CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.i
+
+CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/Utente.cpp -o CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.s
+
+CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o: CMakeFiles/Lab_Lista_Spesa.dir/flags.make
+CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o: ../SpesaNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o -c /home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.cpp
+
+CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.cpp > CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.i
+
+CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.cpp -o CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.s
+
+CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o: CMakeFiles/Lab_Lista_Spesa.dir/flags.make
+CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o: ../Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o -c /home/admir/CLionProjects/Lab_Lista_Spesa/Subject.cpp
+
+CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admir/CLionProjects/Lab_Lista_Spesa/Subject.cpp > CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.i
+
+CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/Subject.cpp -o CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.s
+
 # Object files for target Lab_Lista_Spesa
 Lab_Lista_Spesa_OBJECTS = \
 "CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o" \
 "CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o" \
 "CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o" \
-"CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o"
+"CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o" \
+"CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o" \
+"CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o" \
+"CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o"
 
 # External object files for target Lab_Lista_Spesa
 Lab_Lista_Spesa_EXTERNAL_OBJECTS =
@@ -132,9 +174,12 @@ Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o
 Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o
 Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o
 Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o
+Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o
+Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o
+Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o
 Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/build.make
 Lab_Lista_Spesa: CMakeFiles/Lab_Lista_Spesa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab_Lista_Spesa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Lab_Lista_Spesa"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab_Lista_Spesa.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

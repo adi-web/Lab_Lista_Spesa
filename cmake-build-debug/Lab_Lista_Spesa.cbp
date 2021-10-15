@@ -103,6 +103,24 @@
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h">
 			<Option target="Lab_Lista_Spesa"/>
 		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Subject.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Subject.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Utente.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Utente.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/main.cpp">
 			<Option target="Lab_Lista_Spesa"/>
 		</Unit>

@@ -201,6 +201,78 @@ Spesa.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s
 .PHONY : Spesa.cpp.s
 
+SpesaNotifier.o: SpesaNotifier.cpp.o
+.PHONY : SpesaNotifier.o
+
+# target to build an object file
+SpesaNotifier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o
+.PHONY : SpesaNotifier.cpp.o
+
+SpesaNotifier.i: SpesaNotifier.cpp.i
+.PHONY : SpesaNotifier.i
+
+# target to preprocess a source file
+SpesaNotifier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.i
+.PHONY : SpesaNotifier.cpp.i
+
+SpesaNotifier.s: SpesaNotifier.cpp.s
+.PHONY : SpesaNotifier.s
+
+# target to generate assembly for a file
+SpesaNotifier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.s
+.PHONY : SpesaNotifier.cpp.s
+
+Subject.o: Subject.cpp.o
+.PHONY : Subject.o
+
+# target to build an object file
+Subject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o
+.PHONY : Subject.cpp.o
+
+Subject.i: Subject.cpp.i
+.PHONY : Subject.i
+
+# target to preprocess a source file
+Subject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.i
+.PHONY : Subject.cpp.i
+
+Subject.s: Subject.cpp.s
+.PHONY : Subject.s
+
+# target to generate assembly for a file
+Subject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.s
+.PHONY : Subject.cpp.s
+
+Utente.o: Utente.cpp.o
+.PHONY : Utente.o
+
+# target to build an object file
+Utente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o
+.PHONY : Utente.cpp.o
+
+Utente.i: Utente.cpp.i
+.PHONY : Utente.i
+
+# target to preprocess a source file
+Utente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.i
+.PHONY : Utente.cpp.i
+
+Utente.s: Utente.cpp.s
+.PHONY : Utente.s
+
+# target to generate assembly for a file
+Utente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.s
+.PHONY : Utente.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -243,6 +315,15 @@ help:
 	@echo "... Spesa.o"
 	@echo "... Spesa.i"
 	@echo "... Spesa.s"
+	@echo "... SpesaNotifier.o"
+	@echo "... SpesaNotifier.i"
+	@echo "... SpesaNotifier.s"
+	@echo "... Subject.o"
+	@echo "... Subject.i"
+	@echo "... Subject.s"
+	@echo "... Utente.o"
+	@echo "... Utente.i"
+	@echo "... Utente.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

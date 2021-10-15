@@ -7,5 +7,39 @@ CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o: \
 CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o: \
  ../Categoria.cpp \
  ../Categoria.h
+CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o: \
+ ../Articolo.h \
+ ../Categoria.h \
+ ../Observer.h \
+ ../Spesa.cpp \
+ ../Spesa.h
+CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o: \
+ ../Articolo.h \
+ ../Categoria.h \
+ ../Observer.h \
+ ../Spesa.h \
+ ../SpesaNotifier.cpp \
+ ../SpesaNotifier.h \
+ ../Subject.h \
+ ../Utente.h
+CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o: \
+ ../Observer.h \
+ ../Subject.cpp \
+ ../Subject.h
+CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o: \
+ ../Articolo.h \
+ ../Categoria.h \
+ ../Observer.h \
+ ../Spesa.h \
+ ../Subject.h \
+ ../Utente.cpp \
+ ../Utente.h
 CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o: \
+ ../Articolo.h \
+ ../Categoria.h \
+ ../Observer.h \
+ ../Spesa.h \
+ ../SpesaNotifier.h \
+ ../Subject.h \
+ ../Utente.h \
  ../main.cpp
