@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named Lab_Lista_Spesa
 
 # Build rule for target.
@@ -129,12 +142,51 @@ Lab_Lista_Spesa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/build
 .PHONY : Lab_Lista_Spesa/fast
 
+#=============================================================================
+# Target rules for targets named RunLab_Lista_spesa
+
+# Build rule for target.
+RunLab_Lista_spesa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RunLab_Lista_spesa
+.PHONY : RunLab_Lista_spesa
+
+# fast build rule for target.
+RunLab_Lista_spesa/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/RunLab_Lista_spesa.dir/build.make test/CMakeFiles/RunLab_Lista_spesa.dir/build
+.PHONY : RunLab_Lista_spesa/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f test/lib/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
 Articolo.o: Articolo.cpp.o
 .PHONY : Articolo.o
 
 # target to build an object file
 Articolo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Articolo.cpp.o
 .PHONY : Articolo.cpp.o
 
 Articolo.i: Articolo.cpp.i
@@ -142,7 +194,7 @@ Articolo.i: Articolo.cpp.i
 
 # target to preprocess a source file
 Articolo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Articolo.cpp.i
 .PHONY : Articolo.cpp.i
 
 Articolo.s: Articolo.cpp.s
@@ -150,7 +202,7 @@ Articolo.s: Articolo.cpp.s
 
 # target to generate assembly for a file
 Articolo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Articolo.cpp.s
 .PHONY : Articolo.cpp.s
 
 Categoria.o: Categoria.cpp.o
@@ -158,7 +210,7 @@ Categoria.o: Categoria.cpp.o
 
 # target to build an object file
 Categoria.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Categoria.cpp.o
 .PHONY : Categoria.cpp.o
 
 Categoria.i: Categoria.cpp.i
@@ -166,7 +218,7 @@ Categoria.i: Categoria.cpp.i
 
 # target to preprocess a source file
 Categoria.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Categoria.cpp.i
 .PHONY : Categoria.cpp.i
 
 Categoria.s: Categoria.cpp.s
@@ -174,7 +226,7 @@ Categoria.s: Categoria.cpp.s
 
 # target to generate assembly for a file
 Categoria.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Categoria.cpp.s
 .PHONY : Categoria.cpp.s
 
 Spesa.o: Spesa.cpp.o
@@ -182,7 +234,7 @@ Spesa.o: Spesa.cpp.o
 
 # target to build an object file
 Spesa.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Spesa.cpp.o
 .PHONY : Spesa.cpp.o
 
 Spesa.i: Spesa.cpp.i
@@ -190,7 +242,7 @@ Spesa.i: Spesa.cpp.i
 
 # target to preprocess a source file
 Spesa.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Spesa.cpp.i
 .PHONY : Spesa.cpp.i
 
 Spesa.s: Spesa.cpp.s
@@ -198,63 +250,15 @@ Spesa.s: Spesa.cpp.s
 
 # target to generate assembly for a file
 Spesa.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Spesa.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Spesa.cpp.s
 .PHONY : Spesa.cpp.s
-
-SpesaNotifier.o: SpesaNotifier.cpp.o
-.PHONY : SpesaNotifier.o
-
-# target to build an object file
-SpesaNotifier.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.o
-.PHONY : SpesaNotifier.cpp.o
-
-SpesaNotifier.i: SpesaNotifier.cpp.i
-.PHONY : SpesaNotifier.i
-
-# target to preprocess a source file
-SpesaNotifier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.i
-.PHONY : SpesaNotifier.cpp.i
-
-SpesaNotifier.s: SpesaNotifier.cpp.s
-.PHONY : SpesaNotifier.s
-
-# target to generate assembly for a file
-SpesaNotifier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/SpesaNotifier.cpp.s
-.PHONY : SpesaNotifier.cpp.s
-
-Subject.o: Subject.cpp.o
-.PHONY : Subject.o
-
-# target to build an object file
-Subject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.o
-.PHONY : Subject.cpp.o
-
-Subject.i: Subject.cpp.i
-.PHONY : Subject.i
-
-# target to preprocess a source file
-Subject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.i
-.PHONY : Subject.cpp.i
-
-Subject.s: Subject.cpp.s
-.PHONY : Subject.s
-
-# target to generate assembly for a file
-Subject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Subject.cpp.s
-.PHONY : Subject.cpp.s
 
 Utente.o: Utente.cpp.o
 .PHONY : Utente.o
 
 # target to build an object file
 Utente.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Utente.cpp.o
 .PHONY : Utente.cpp.o
 
 Utente.i: Utente.cpp.i
@@ -262,7 +266,7 @@ Utente.i: Utente.cpp.i
 
 # target to preprocess a source file
 Utente.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Utente.cpp.i
 .PHONY : Utente.cpp.i
 
 Utente.s: Utente.cpp.s
@@ -270,7 +274,7 @@ Utente.s: Utente.cpp.s
 
 # target to generate assembly for a file
 Utente.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Utente.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Utente.cpp.s
 .PHONY : Utente.cpp.s
 
 main.o: main.cpp.o
@@ -306,6 +310,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab_Lista_Spesa"
+	@echo "... RunLab_Lista_spesa"
+	@echo "... core"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... Articolo.o"
 	@echo "... Articolo.i"
 	@echo "... Articolo.s"
@@ -315,12 +323,6 @@ help:
 	@echo "... Spesa.o"
 	@echo "... Spesa.i"
 	@echo "... Spesa.s"
-	@echo "... SpesaNotifier.o"
-	@echo "... SpesaNotifier.i"
-	@echo "... SpesaNotifier.s"
-	@echo "... Subject.o"
-	@echo "... Subject.i"
-	@echo "... Subject.s"
 	@echo "... Utente.o"
 	@echo "... Utente.i"
 	@echo "... Utente.s"
