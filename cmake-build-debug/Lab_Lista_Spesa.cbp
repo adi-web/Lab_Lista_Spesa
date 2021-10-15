@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
+		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h">
+			<Option target="Lab_Lista_Spesa"/>
+		</Unit>
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/main.cpp">
 			<Option target="Lab_Lista_Spesa"/>
 		</Unit>

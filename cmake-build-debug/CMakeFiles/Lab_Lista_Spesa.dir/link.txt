@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o -o Lab_Lista_Spesa 
+/usr/bin/c++ -g CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o -o Lab_Lista_Spesa 

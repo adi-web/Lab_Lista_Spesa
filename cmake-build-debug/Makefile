@@ -129,6 +129,54 @@ Lab_Lista_Spesa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/build
 .PHONY : Lab_Lista_Spesa/fast
 
+Articolo.o: Articolo.cpp.o
+.PHONY : Articolo.o
+
+# target to build an object file
+Articolo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.o
+.PHONY : Articolo.cpp.o
+
+Articolo.i: Articolo.cpp.i
+.PHONY : Articolo.i
+
+# target to preprocess a source file
+Articolo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.i
+.PHONY : Articolo.cpp.i
+
+Articolo.s: Articolo.cpp.s
+.PHONY : Articolo.s
+
+# target to generate assembly for a file
+Articolo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Articolo.cpp.s
+.PHONY : Articolo.cpp.s
+
+Categoria.o: Categoria.cpp.o
+.PHONY : Categoria.o
+
+# target to build an object file
+Categoria.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.o
+.PHONY : Categoria.cpp.o
+
+Categoria.i: Categoria.cpp.i
+.PHONY : Categoria.i
+
+# target to preprocess a source file
+Categoria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.i
+.PHONY : Categoria.cpp.i
+
+Categoria.s: Categoria.cpp.s
+.PHONY : Categoria.s
+
+# target to generate assembly for a file
+Categoria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab_Lista_Spesa.dir/build.make CMakeFiles/Lab_Lista_Spesa.dir/Categoria.cpp.s
+.PHONY : Categoria.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lab_Lista_Spesa"
+	@echo "... Articolo.o"
+	@echo "... Articolo.i"
+	@echo "... Articolo.s"
+	@echo "... Categoria.o"
+	@echo "... Categoria.i"
+	@echo "... Categoria.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
