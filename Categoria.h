@@ -13,7 +13,7 @@ using namespace std;
 class Categoria {
 public:
 
-    Categoria(const string &nameCategoria);
+    explicit Categoria(const string &nameCategoria);
 
     const string &getNameCategoria() const;
 

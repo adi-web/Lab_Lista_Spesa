@@ -11,8 +11,7 @@ void Utente::addLista(const Spesa &l) {
     if(it == listaUtente.end()) {
 
         listaUtente.push_back(l);
-        nameSpesa=l.getNameSpesa();
-        //notify();
+        notify();
     }
     else
         cout<<"Lista gia' presente"<<endl;
@@ -31,13 +30,13 @@ void Utente::removeLista(const string &namelista) {
 
 }
 
-void Utente::printAll() {
+const void Utente::printAll() {
 
     cout<<"Utente :"<<nameUtente<<endl;
     for (auto it = listaUtente.begin(); it != listaUtente.end(); it++) {
         cout<<"nome della lista :"<<it->getNameSpesa()<<endl;
         it->printAll();
-        cout << "Articoli totali da acquistare :" << it->itemsToBuy() << " nella lista " << it->getNameSpesa()
+        cout << "Articoli totali da acquistare :" << it->getItemsToBuy() << " nella lista " << it->getNameSpesa()
              << endl;
     }
 }
@@ -52,11 +51,11 @@ void Utente::buyFromUtente(const string &nomelista, const Articolo &a) {
 }
 
 //conteggio articoli da acquistare da un utente in base alla lista
-int Utente::itemsToBuyUtente() {
+const int Utente::itemsToBuyUtente() {
 
     int n=0;
     for (auto it = listaUtente.begin(); it != listaUtente.end(); it++) {
-        n= it->itemsToBuy();
+        n= it->getItemsToBuy();
     }
     return n;
 
@@ -90,7 +89,7 @@ void Utente::setNameUtente(const string &nameUtente) {
     Utente::nameUtente = nameUtente;
 }
 
-int Utente::getNumberSpesa() {
+const int Utente::getNumberSpesa() {
     int n=0;
     for(auto elements:listaUtente)
     {

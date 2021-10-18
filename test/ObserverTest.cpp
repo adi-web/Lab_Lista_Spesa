@@ -38,7 +38,7 @@ protected:
 
 };
 
-// inserire quando inserisce un nuovo utente controllare se è state inserito
+
 TEST_F(ObserverTest,NotifyWhenBuy)
 {
     u->addLista(spesa);

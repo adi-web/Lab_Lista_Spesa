@@ -15,13 +15,14 @@ using namespace std;
 
 class Articolo:public Categoria  {
 public:
+
     Articolo(const string &name, const int quantity, const string &categoria);
 
     const string &getName() const;
 
     void setName(const string &name);
 
-    int getQuantity() const;
+    const int getQuantity() const;
 
     void setQuantity(int quantita);
 
@@ -44,7 +45,7 @@ public:
 protected:
     string name;
     int quantity;
-    bool state=false;
+    bool state=false; // indica lo stato dell'articolo false=(non comprato)
 
 };
 

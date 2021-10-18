@@ -36,14 +36,14 @@ TEST_F(UtenteTestFixture,Addspesa)
 
 }
 
-TEST_F(UtenteTestFixture,removeSpesa)
+TEST_F(UtenteTestFixture,RemoveSpesa)
 {
 
     utente->removeLista("Spesa di sabato");
     ASSERT_EQ(0, utente->getNumberSpesa());
 }
 
-TEST_F(UtenteTestFixture,BuyArticoloUtente)
+TEST_F(UtenteTestFixture,BuyItemUtente)
 {
     utente->buyFromUtente("Spesa di sabato", formaggio);
     ASSERT_EQ(1, utente->itemsToBuyUtente());

@@ -12,11 +12,10 @@ void Spesa::setNameSpesa(const string &nameSpesa) {
 }
 
 void Spesa::addItem(const Articolo &a) {
-
     list_spesa.push_back(a);
 }
 
-void Spesa::printAll() const{
+const void Spesa::printAll() const{
     for(auto it=list_spesa.begin();it!=list_spesa.end();it++)
     {
         cout << "nome prodotto :" << it->getName() << endl << " quantity da comprare : " << it->getQuantity() << endl << "Stato : " << it->isState() << endl;
@@ -50,7 +49,7 @@ const string &Spesa::getNameSpesa() const {
 }
 
 //conteggio articoli da acquistare in una spesa
-int Spesa::itemsToBuy() {
+const int Spesa::getItemsToBuy() {
 
     int numero=0;
 
@@ -61,7 +60,7 @@ int Spesa::itemsToBuy() {
     return numero;
 }
 
-int Spesa::getNumberItems(const string &nameSpesa) {
+const int Spesa::getNumberItems(const string &nameSpesa) {
     int n=0;
     for(auto elements:list_spesa)
     {

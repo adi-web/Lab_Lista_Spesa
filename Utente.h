@@ -34,13 +34,13 @@ public:
 
     void setNameUtente(const string &nameUtente);
 
-    void printAll();
+    const void printAll();
 
     void buyFromUtente(const string &nomelista, const Articolo &a);
 
-    int getNumberSpesa();
+    const int getNumberSpesa();
 
-    int itemsToBuyUtente();
+    const int itemsToBuyUtente();
 
     bool operator==(const string s)
     {
@@ -50,7 +50,7 @@ public:
     virtual ~Utente()=default;
 
 protected:
-    string nameUtente,nameSpesa;
+    string nameUtente;
     list<Spesa>listaUtente;
     list<Observer *>observer;
 

@@ -12,7 +12,7 @@ void Articolo::setName(const string &name) {
     Articolo::name = name;
 }
 
-int Articolo::getQuantity() const {
+const int Articolo::getQuantity() const {
     return quantity;
 }
 

@@ -28,17 +28,15 @@ public:
 
     void removeItem(const string &namespesa, const Articolo &a);
 
-    int getNumberItems(const string &nameSpesa);
+    const int getNumberItems(const string &nameSpesa);
 
-    void printAll() const;
+    const void printAll() const;
 
     bool buyItems(const string &namespesa, const Articolo &a);
 
     const string &getNameSpesa() const;
 
-    // const list<Articolo> &getListSpesa() const;
-
-    int itemsToBuy();
+    const int getItemsToBuy();
 
     bool operator==(const string s)
     {

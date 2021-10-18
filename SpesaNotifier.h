@@ -21,7 +21,6 @@ public:
         this->utente->subscribed(this);
 
     }
-
     void update() override
     {
         utente->printAll();
