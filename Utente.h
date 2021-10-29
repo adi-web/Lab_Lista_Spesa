@@ -29,6 +29,7 @@ public:
 
     void removeLista(const string &namelista);
 
+    void addArticoloUtente(const string &namelista ,const Articolo &a );
 
     const string &getNameUtente() const;
 
@@ -36,7 +37,8 @@ public:
 
     const void printAll();
 
-    void buyFromUtente(const string &nomelista, const Articolo &a);
+    //eliminato namespesa
+    void buyFromUtente( const Articolo &a);
 
     const int getNumberSpesa();
 

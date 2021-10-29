@@ -1,2 +1,2 @@
-/usr/bin/ar qc libcore.a CMakeFiles/core.dir/Utente.cpp.o CMakeFiles/core.dir/Articolo.cpp.o CMakeFiles/core.dir/Spesa.cpp.o CMakeFiles/core.dir/Categoria.cpp.o
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/Utente.cpp.o CMakeFiles/core.dir/Articolo.cpp.o CMakeFiles/core.dir/Spesa.cpp.o
 /usr/bin/ranlib libcore.a

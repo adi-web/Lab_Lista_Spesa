@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.cpp
-Articolo.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.h
-
 /home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.h
 iostream
 -
@@ -17,24 +13,12 @@ list
 -
 algorithm
 -
-Categoria.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp
-Categoria.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h
 string
 -
 
 /home/admir/CLionProjects/Lab_Lista_Spesa/Observer.h
 string
 -
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp
-Spesa.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h
 
 /home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h
 iostream

@@ -291,10 +291,6 @@ list
 -
 algorithm
 -
-Categoria.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h
 string
 -
 
@@ -367,28 +363,4 @@ algorithm
 -
 ../SpesaNotifier.h
 /home/admir/CLionProjects/Lab_Lista_Spesa/SpesaNotifier.h
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/test/SpesaTest.cpp
-gtest/gtest.h
--
-../Utente.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Utente.h
-../Spesa.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h
-memory
--
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/test/UtenteTest.cpp
-gtest/gtest.h
--
-../Utente.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Utente.h
-../Spesa.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.h
-memory
--
-
-/home/admir/CLionProjects/Lab_Lista_Spesa/test/runAllTests.cpp
-gtest/gtest.h
-/home/admir/CLionProjects/Lab_Lista_Spesa/test/gtest/gtest.h
 

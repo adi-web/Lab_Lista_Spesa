@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/core.dir/Articolo.cpp.o"
-  "CMakeFiles/core.dir/Categoria.cpp.o"
   "CMakeFiles/core.dir/Spesa.cpp.o"
   "CMakeFiles/core.dir/Utente.cpp.o"
   "libcore.a"

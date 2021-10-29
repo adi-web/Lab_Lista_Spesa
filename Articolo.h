@@ -8,12 +8,13 @@
 #include <iostream>
 #include <list>
 #include <algorithm>
-#include "Categoria.h"
+#include <string>
+
 
 
 using namespace std;
 
-class Articolo:public Categoria  {
+class Articolo{
 public:
 
     Articolo(const string &name, const int quantity, const string &categoria);
@@ -30,19 +31,24 @@ public:
 
     void setState(bool stato);
 
-    const void print()
+    const string to_string()const
     {
-        cout<<"Articolo da comprare :"<<name<<endl;
-        cout << "Quantita da comprare :" << quantity << endl;
-        cout<<"Categoria:"<<getNameCategoria()<<endl;
-        cout << "Stato : " << isState() << endl;
+        return "Articolo da comprare: "+name+
+        " Quantita da comprare "+std::to_string(quantity)+
+        "Categoria "+categoria+" Stato "+std::to_string(state);
     }
 
     bool operator==(const string s)
     {
         return (s==name);
     }
+
+    const string &getCategoria() const;
+
+    void setCategoria(const string &categoria);
+
 protected:
+    string categoria;
     string name;
     int quantity;
     bool state=false; // indica lo stato dell'articolo false=(non comprato)

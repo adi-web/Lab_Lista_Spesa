@@ -42,7 +42,7 @@ protected:
 TEST_F(ObserverTest,NotifyWhenBuy)
 {
     u->addLista(spesa);
-    u->buyFromUtente("Spesa di sabato", bistecca);
+    u->buyFromUtente( bistecca);
     ASSERT_TRUE(controllo);
 }
 

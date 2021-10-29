@@ -30,22 +30,31 @@ void Utente::removeLista(const string &namelista) {
 
 }
 
+//aggiunta articolo
+void Utente::addArticoloUtente(const string &namelista, const Articolo &a) {
+    auto it= find(listaUtente.begin(), listaUtente.end(), namelista);
+    if(it != listaUtente.end()) {
+       it->addItem(a);
+        notify(); // notifica l'aggiunta dell'articolo
+    }
+}
+
 const void Utente::printAll() {
 
     cout<<"Utente :"<<nameUtente<<endl;
     for (auto it = listaUtente.begin(); it != listaUtente.end(); it++) {
         cout<<"nome della lista :"<<it->getNameSpesa()<<endl;
-        it->printAll();
+        it->viewItems();
         cout << "Articoli totali da acquistare :" << it->getItemsToBuy() << " nella lista " << it->getNameSpesa()
              << endl;
     }
 }
 
 //compra l'articolo nella lista scelta
-void Utente::buyFromUtente(const string &nomelista, const Articolo &a) {
+void Utente::buyFromUtente(const Articolo &a) {
 
     for (auto it = listaUtente.begin(); it != listaUtente.end(); it++) {
-        it->buyItems(nomelista, a);
+        it->buyItems(a);
     }
     notify();
 }
@@ -60,7 +69,6 @@ const int Utente::itemsToBuyUtente() {
     return n;
 
 }
-
 
 
 Utente::Utente(const string &name) : nameUtente(name) {}

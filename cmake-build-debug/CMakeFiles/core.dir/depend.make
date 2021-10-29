@@ -3,21 +3,15 @@
 
 CMakeFiles/core.dir/Articolo.cpp.o: \
  ../Articolo.cpp \
- ../Articolo.h \
- ../Categoria.h
-CMakeFiles/core.dir/Categoria.cpp.o: \
- ../Categoria.cpp \
- ../Categoria.h
+ ../Articolo.h
 CMakeFiles/core.dir/Spesa.cpp.o: \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.cpp \
  ../Spesa.h \
  ../Subject.h
 CMakeFiles/core.dir/Utente.cpp.o: \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.h \
  ../Subject.h \

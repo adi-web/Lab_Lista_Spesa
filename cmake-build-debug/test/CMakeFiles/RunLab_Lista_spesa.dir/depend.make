@@ -25,7 +25,6 @@ test/CMakeFiles/RunLab_Lista_spesa.dir/ObserverTest.cpp.o: \
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h \
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.h \
  ../SpesaNotifier.h \
@@ -56,7 +55,6 @@ test/CMakeFiles/RunLab_Lista_spesa.dir/SpesaTest.cpp.o: \
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h \
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.h \
  ../Subject.h \
@@ -86,7 +84,6 @@ test/CMakeFiles/RunLab_Lista_spesa.dir/UtenteTest.cpp.o: \
  ../test/lib/googletest/include/gtest/internal/gtest-tuple.h \
  ../test/lib/googletest/include/gtest/internal/gtest-type-util.h \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.h \
  ../Subject.h \

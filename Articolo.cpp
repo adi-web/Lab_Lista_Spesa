@@ -20,7 +20,7 @@ void Articolo::setQuantity(int quantita) {
     Articolo::quantity = quantita;
 }
 
-Articolo::Articolo(const string &name, const int quantity, const string &categoria) : name(name), quantity(quantity), Categoria(categoria) {}
+Articolo::Articolo(const string &name, const int quantity, const string &categoria) : name(name), quantity(quantity), categoria(categoria) {}
 
 bool Articolo::isState() const {
     return state;
@@ -29,3 +29,12 @@ bool Articolo::isState() const {
 void Articolo::setState(bool stato) {
     Articolo::state = stato;
 }
+
+const string &Articolo::getCategoria() const {
+    return categoria;
+}
+
+void Articolo::setCategoria(const string &categoria) {
+    Articolo::categoria = categoria;
+}
+

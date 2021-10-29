@@ -276,12 +276,6 @@
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp">
-			<Option target="core"/>
-		</Unit>
-		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.h">
-			<Option target="core"/>
-		</Unit>
 		<Unit filename="/home/admir/CLionProjects/Lab_Lista_Spesa/Observer.h">
 			<Option target="core"/>
 		</Unit>

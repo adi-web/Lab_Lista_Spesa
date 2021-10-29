@@ -43,7 +43,13 @@ TEST_F(SpesaTestFixture, AddItem)
 
 TEST_F(SpesaTestFixture, BuyItem)
 {
-    ASSERT_TRUE(spesa.buyItems("Spesa di sabato", formaggio));
+    ASSERT_TRUE(spesa.buyItems(formaggio));
+}
+
+TEST_F(SpesaTestFixture,CheckItemBuyed)
+{
+    spesa.buyItems( mela);
+    ASSERT_EQ(1, spesa.getItemsToBuy());
 }
 
 

@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/admir/CLionProjects/Lab_Lista_Spesa/Articolo.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/core.dir/Articolo.cpp.o"
-  "/home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/core.dir/Categoria.cpp.o"
   "/home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/core.dir/Spesa.cpp.o"
   "/home/admir/CLionProjects/Lab_Lista_Spesa/Utente.cpp" "/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles/core.dir/Utente.cpp.o"
   )

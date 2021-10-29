@@ -13,7 +13,7 @@
 #include "Observer.h"
 #include <memory>
 #include "Subject.h"
-
+#include <string>
 
 using namespace std;
 
@@ -30,9 +30,11 @@ public:
 
     const int getNumberItems(const string &nameSpesa);
 
-    const void printAll() const;
+    const void viewItems() const;
 
-    bool buyItems(const string &namespesa, const Articolo &a);
+    const string to_string() const;
+
+    bool buyItems(const Articolo &a);
 
     const string &getNameSpesa() const;
 

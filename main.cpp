@@ -4,8 +4,12 @@
 #include "Spesa.h"
 #include "SpesaNotifier.h"
 #include "Utente.h"
+#include <string>
+using namespace  std;
+
 
 int main() {
+
 
     auto* u=new Utente("mucaj");
     auto* u2=new Utente("bonechi");
@@ -14,6 +18,7 @@ int main() {
 
     Articolo formaggio("formaggio ", 2, "latticini");
     Articolo mela ("mela", 2, "frutta");
+
 
 
 
@@ -29,11 +34,12 @@ int main() {
     u2->addLista(spesaSabato);
     u2->addLista(spesaNonna);
     u->addLista(spesaSabato);
-    u2->buyFromUtente("Spesa di sabato", formaggio);
+    u2->buyFromUtente(formaggio);
+    u2->buyFromUtente(formaggio);
 
     cout<<endl<<endl;
     cout<<endl<<endl;
-    u->buyFromUtente("Spesa di sabato", mela);
+    u->buyFromUtente(mela);
 
     delete Spesanotifier2;
     delete Spesanotifier;

@@ -15,22 +15,23 @@ void Spesa::addItem(const Articolo &a) {
     list_spesa.push_back(a);
 }
 
-const void Spesa::printAll() const{
+const void Spesa::viewItems() const{
     for(auto it=list_spesa.begin();it!=list_spesa.end();it++)
     {
-        cout << "nome prodotto :" << it->getName() << endl << " quantity da comprare : " << it->getQuantity() << endl << "Stato : " << it->isState() << endl;
+        cout<<it->to_string()<<endl;
     }
 }
 
+
+
 //set true state dell'articolo comprato dall' utente
-bool Spesa::buyItems(const string &namespesa, const Articolo &a) {
+bool Spesa::buyItems( const Articolo &a) {
 
     auto it= find(list_spesa.begin(),list_spesa.end(),a.getName());
-    if(it!=list_spesa.end()&&namespesa==nameSpesa) {
+    if(it!=list_spesa.end()) {
         cout << "E' state comprato l' articolo  " << a.getName() << "dalla spesa :" << nameSpesa << endl;
         it->setState(true);
     }
-
     return it->isState();
 }
 
@@ -41,8 +42,6 @@ void Spesa::removeItem(const string &namespesa, const Articolo &a) {
         list_spesa.erase(it);
     }
 }
-
-
 
 const string &Spesa::getNameSpesa() const {
     return nameSpesa;

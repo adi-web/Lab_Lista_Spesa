@@ -3,7 +3,6 @@
 
 CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o: \
  ../Articolo.h \
- ../Categoria.h \
  ../Observer.h \
  ../Spesa.h \
  ../SpesaNotifier.h \

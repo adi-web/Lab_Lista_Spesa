@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -105,25 +105,11 @@ CMakeFiles/core.dir/Spesa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Spesa.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/Spesa.cpp -o CMakeFiles/core.dir/Spesa.cpp.s
 
-CMakeFiles/core.dir/Categoria.cpp.o: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/Categoria.cpp.o: ../Categoria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/Categoria.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/core.dir/Categoria.cpp.o -c /home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp
-
-CMakeFiles/core.dir/Categoria.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Categoria.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp > CMakeFiles/core.dir/Categoria.cpp.i
-
-CMakeFiles/core.dir/Categoria.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Categoria.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admir/CLionProjects/Lab_Lista_Spesa/Categoria.cpp -o CMakeFiles/core.dir/Categoria.cpp.s
-
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/Utente.cpp.o" \
 "CMakeFiles/core.dir/Articolo.cpp.o" \
-"CMakeFiles/core.dir/Spesa.cpp.o" \
-"CMakeFiles/core.dir/Categoria.cpp.o"
+"CMakeFiles/core.dir/Spesa.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -131,10 +117,9 @@ core_EXTERNAL_OBJECTS =
 libcore.a: CMakeFiles/core.dir/Utente.cpp.o
 libcore.a: CMakeFiles/core.dir/Articolo.cpp.o
 libcore.a: CMakeFiles/core.dir/Spesa.cpp.o
-libcore.a: CMakeFiles/core.dir/Categoria.cpp.o
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admir/CLionProjects/Lab_Lista_Spesa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 
