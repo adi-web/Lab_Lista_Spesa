@@ -36,9 +36,9 @@ bool Spesa::buyItems( const Articolo &a) {
 }
 
 //remove articolo dalla spesa
-void Spesa::removeItem(const string &namespesa, const Articolo &a) {
+void Spesa::removeItem(const Articolo &a) {
     auto it= find(list_spesa.begin(),list_spesa.end(),a.getName());
-    if(it!=list_spesa.end()&&namespesa==nameSpesa) {
+    if(it!=list_spesa.end()) {
         list_spesa.erase(it);
     }
 }
