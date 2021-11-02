@@ -42,7 +42,7 @@ public:
 
     const int getNumberSpesa();
 
-    const int itemsToBuyUtente();
+    const int itemsToBuyUtente(const string &name);
 
     bool operator==(const string s)
     {

@@ -60,12 +60,14 @@ void Utente::buyFromUtente(const Articolo &a) {
 }
 
 //conteggio articoli da acquistare da un utente in base alla lista
-const int Utente::itemsToBuyUtente() {
+const int Utente::itemsToBuyUtente(const string &name) {
 
     int n=0;
-    for (auto it = listaUtente.begin(); it != listaUtente.end(); it++) {
+    auto it= find(listaUtente.begin(), listaUtente.end(), name);
+    if(it != listaUtente.end()) {
         n= it->getItemsToBuy();
     }
+ 
     return n;
 
 }

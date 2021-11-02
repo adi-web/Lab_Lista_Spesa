@@ -46,6 +46,6 @@ TEST_F(UtenteTestFixture,RemoveSpesa)
 TEST_F(UtenteTestFixture,BuyItemUtente)
 {
     utente->buyFromUtente(formaggio);
-    ASSERT_EQ(1, utente->itemsToBuyUtente());
+    ASSERT_EQ(1, utente->itemsToBuyUtente("Spesa di sabato"));
 }
 
