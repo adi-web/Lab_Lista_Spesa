@@ -26,9 +26,9 @@ public:
 
     void addItem(const Articolo &a);
 
-    void removeItem(const string &namespesa, const Articolo &a);
+    void removeItem(const Articolo &a);
 
-    const int getNumberItems(const string &nameSpesa);
+    const int getNumberItems();
 
     const void viewItems() const;
 

@@ -35,10 +35,11 @@ bool Spesa::buyItems( const Articolo &a) {
     return it->isState();
 }
 
+
 //remove articolo dalla spesa
-void Spesa::removeItem(const string &namespesa, const Articolo &a) {
+void Spesa::removeItem(const Articolo &a) {
     auto it= find(list_spesa.begin(),list_spesa.end(),a.getName());
-    if(it!=list_spesa.end()&&namespesa==nameSpesa) {
+    if(it!=list_spesa.end()) {
         list_spesa.erase(it);
     }
 }
@@ -59,12 +60,8 @@ const int Spesa::getItemsToBuy() {
     return numero;
 }
 
-const int Spesa::getNumberItems(const string &nameSpesa) {
-    int n=0;
-    for(auto elements:list_spesa)
-    {
-        n++;
-    }
-    return n;
+const int Spesa::getNumberItems() {
+
+    return list_spesa.size();
 }
 
