@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Lab_Lista_Spesa.dir/main.cpp.o -o Lab_Lista_Spesa  libcore.a 
