@@ -67,7 +67,7 @@ const int Utente::itemsToBuyUtente(const string &name) {
     if(it != listaUtente.end()) {
         n= it->getItemsToBuy();
     }
- 
+
     return n;
 
 }
@@ -100,10 +100,6 @@ void Utente::setNameUtente(const string &nameUtente) {
 }
 
 const int Utente::getNumberSpesa() {
-    int n=0;
-    for(auto elements:listaUtente)
-    {
-        n++;
-    }
-    return n;
+
+    return listaUtente.size();
 }
