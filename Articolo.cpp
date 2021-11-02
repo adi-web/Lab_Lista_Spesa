@@ -20,7 +20,7 @@ void Articolo::setQuantity(int quantita) {
     Articolo::quantity = quantita;
 }
 
-Articolo::Articolo(const string &name, const int quantity, const string &categoria) : name(name), quantity(quantity), categoria(categoria) {}
+Articolo::Articolo(const string &name,int quantity, const string &categoria) : name(name), quantity(quantity), categoria(categoria) {}
 
 bool Articolo::isState() const {
     return state;

@@ -17,7 +17,7 @@ using namespace std;
 class Articolo{
 public:
 
-    Articolo(const string &name, const int quantity, const string &categoria);
+    Articolo(const string &name,int quantity, const string &categoria);
 
     const string &getName() const;
 
