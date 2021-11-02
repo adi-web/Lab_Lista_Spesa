@@ -38,7 +38,7 @@ TEST_F(SpesaTestFixture, AddItem)
 
     spesa.addItem(bevandaC);
     spesa.addItem(bistecca);
-    ASSERT_EQ(4, spesa.getNumberItems("Spesa di sabato"));
+    ASSERT_EQ(4, spesa.getNumberItems());
 }
 
 TEST_F(SpesaTestFixture, BuyItem)
@@ -61,8 +61,21 @@ TEST_F(SpesaTestFixture, GetItemsToBuy)
 
 TEST_F(SpesaTestFixture, RemoveItem)
 {
-    spesa.removeItem("Spesa di sabato", formaggio);
-    ASSERT_EQ(1, spesa.getNumberItems("Spesa di sabato"));
+    spesa.removeItem(formaggio);
+    ASSERT_EQ(1, spesa.getNumberItems());
+}
+
+
+TEST_F(SpesaTestFixture, ModifyItem)
+{
+    mela.setName("Mela");
+    mela.setCategoria("Frutta");
+    ASSERT_EQ("Mela", mela.getName());
+    ASSERT_EQ("Frutta", mela.getCategoria());
+
+
+
+
 }
 
 
